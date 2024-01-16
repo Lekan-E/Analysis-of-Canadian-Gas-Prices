@@ -79,4 +79,29 @@ In Figure 3, we can take a closer look at how prices have changed from year to y
 #### Price Changes in each Province
 ![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/main/Images/Detailed%20Price%20per%20Year.png)
 
+## Seasonal Analysis
+An interesting analysis we can also perform with the dataset is to determine how the different seasons/period through the year affect the cost of gas, the demand and why they do.
 
+#### Regular and Premium Unleaded Gas
+![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/main/Images/Seasonal%20Cost%20-%20Regular%20and%20Premium.png)
+
+From the visualization above, we can see that Regular and Premium Unleaded Gas both have a similar trend in relation to price all through the year. Now let’s look at the different factors that leads to that:
+* Winter: Gas prices tend to see a drop during the winter period due to a lower demand, as people drive less in colder weather due to its cost. This season is when we see the lowest prices of gas all through the year.
+* Spring: Here is a transition period. As the weather becomes warmer, the demand starts to increase, potentially leading to a gradual price uptick leading to the summer months.
+* Summer: In the summer months, we see the highest increase in prices throughout the year, primarily due to higher demand as people travel more for vacations.
+* Fall: During the fall season, we begin to see a constant drop in prices as we head towards the colder month. Travel is reducing and people are spending more time indoors, eventually reducing the demand for gas.
+
+#### Diesel Fuel
+![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/main/Images/Seasonal%20Cost%20-%20Diesel%20Fuel.png)
+
+Diesel Fuel on the other hand sees a different pattern throughout the years. This is mainly because diesel fuel is used primary in Canada for home heating and as a fuel for commercial and industrial heating. Now let’s look at how prices change throughout the year.
+* Winter: Diesel prices often rise during the winter months, and this is primarily due to higher demand for heating oil, especially in the colder regions. The increased demand during the colder months drives the prices up.
+* Spring: In spring the prices generally stay at the higher end than in the winter months because the weather tends to still be cold and the demand for diesel fuel is still high.
+* Summer: During summer, diesel prices see a slight drop because the demand for heating oil decreases with warmer weather therefore leading to a decrease in heating-related diesel consumption.
+* Fall: As fall comes in, we see the highest demand for diesel due to humans’ reaction to the change in the weather. Here we demand heating oil to keep our body temperatures as in the warmer months.
+
+## Conclusion
+From our analysis, we can make the following deductions:
+* The province of Alberta, Manitoba and Saskatchewan paid the cheapest for gas due to the proximity of Canada’s oil reserves, while British Columbia has paid the most for gas largely due to carbon-tax.
+* The farther away a province is from the oil reserves, the more they pay for gas due to transportation costs.
+* Regular and Premium Unleaded gas are cheaper in winter months, whilst Diesel fuel is cheaper in the summer.
