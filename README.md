@@ -1,5 +1,5 @@
 # Analysis-of-Canadian-Gas-Prices
- A research analysis on the evolution of gas prices in Canada in the last decade across all provinces by Olamilekan Razak Elegbede.
+ A research analysis of the cost of gas prices in Canada in the last 10 years across all provinces by Olamilekan Razak Elegbede.
 
 ![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/31b48ae7df6edf021e553f053271ffb32bc64f0f/Images/Summary%20Dashboard.png)
 
@@ -9,7 +9,7 @@ The years 2016 and 2022 were pivotal in the cost of gas across self-service fill
 The aim of this project is to analyze the cost of gas across Canadian provinces over the past 10 years, using key metrics to make informed, data-driven decisions. I will focus mainly on using Data Visualization techniques.
 
 ## Data
-For our analysis, I will be using data collected by the Government of Canada and provided on Statistics Canada in a .csv format. This contains historical data on a month-to-month basis for the last 10 years. It was a raw file, so we had to clean and prepare the data for analysis. 
+For our analysis, I will be using data collected by the Government of Canada and provided by Statistics Canada in a .csv format. This contains historical data on a month-to-month basis for the last 10 years. It was a raw file, so we had to clean and prepare the data for analysis. 
 
 ## Methodology
 ### Flowchart
