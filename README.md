@@ -1,25 +1,58 @@
 # Analysis-of-Canadian-Gas-Prices
- A research analysis on the evolution of gas prices in Canada in the last decade across all provinces.
+ A research analysis on the evolution of gas prices in Canada in the last decade across all provinces by Olamilekan Razak Elegbede.
 
-# The Evolution of Canadian Gas Prices through the Last Decade
-A Report by Olamilekan Razak Elegbede
+![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/main/Images/Geographical%20Average.png)
 
 ## Introduction
-### Background
-I came across an article highlighting the current cost of buying and maintaining a car. But what caught my attention was the emphasis on how the cost of fueling a car has rapidly increased in the last year or two. Before the COVID-19 pandemic, at some point Canadians paid less than a dollar per liter for gas and comparing that to today’s price at $1.50 on average is absurd. This made me curious to perform a research analysis on the evolution of gas prices in Canada in the last decade across all provinces. <br/>
+The years 2016 and 2022 were pivotal in the cost of gas across self-service filling stations in all provinces. In 2016, gas prices were at their lowest due to low global demand, while 2022 saw the highest prices as the economy recovered from the global pandemic. As a new graduate looking to purchase a car and open to relocation, two critical questions arise: "Which province should I settle in to save on fuel costs?" and "What time of the year is best to buy a car with respect to gas prices?"
 
-### Problem Statement
-In the last 10 years, the cost of gas has fluctuated based on various events, such as the 2020 COVID-19 pandemic which is currently affecting the cost today, the carbon-tax bill in British Columbia and many more events. The aim of this project is study Canada gasoline prices across all provinces, determining how much on average each province spends on the 
-various types of gasoline, looking at the major events through the last decade and identifying the highest and lowest cost. A further analysis I aim to perform is studying the 4 seasons in a year and how it affects the price of gas. Lastly build an interactive dashboard for users to monitor price changes over time. I will focus mainly on using Data Visualization techniques. <br/>
+The aim of this project is to analyze the cost of gas across Canadian provinces over the past 10 years, using key metrics to make informed, data-driven decisions. I will focus mainly on using Data Visualization techniques.
 
-### Basis
+## Methodology
+
+
+## North Start Metrics
+- Regional Price Variations: Differences in fuel prices across various Canadian provinces.
+- Average Cost: Monthly average retail fuel price at self-service filling stations in each Canadian province.
+- Year-over-Year Change: Percentage change in fuel prices compared to the same period in the previous year.
+- Seasonal Variation: Fluctuations in fuel prices during different seasons of the year (Fall, Winter, Spring, Summer).
+
+## Summary of Insights
+### Regional Price Variation:
+- Alberta has the lowest fuel costs, making it the most economical choice for those looking to save on fuel expenses. Manitoba and Saskatchewan also offer favorable options for cost-conscious individuals.
+- Yukon, British Columbia, and Northwest Territories have the highest fuel prices, making them less ideal for those looking to minimize fuel expenses.
+
+### Average Cost Trends:
+- From 2014 to 2015, gas prices significantly declined across all fuel types, likely due to an oversupply of crude oil and weakening demand. From 2016 onwards, prices began to recover gradually, with diesel showing a particularly strong rebound. 
+- The sharp rise in prices observed between 2021 and 2024 can be attributed to increased demand as economies reopened post-pandemic, supply chain disruptions, and market volatility.
+
+### Year-over-Year Changes:
+- 2014-2015: Significant drop in prices for all fuel types, with regular gas experiencing the steepest decline.
+- 2015-2020: Gradual price recovery, with diesel showing a stronger recovery, surpassing unleaded gas around 2018.
+- 2020-2021: A noticeable dip, especially for diesel, indicating high volatility due to market disruptions.
+- 2021-2024: Sharp rise in prices for all fuel types, reaching new peaks by 2024.
+
+### Seasonal Variation:
+- Gas prices are lowest in the winter months and rise significantly in the summer, peaking in June and July. This suggests higher demand for gasoline during the summer due to increased travel and driving. Reduced driving in winter likely contributes to lower prices.
+
+## Recommendations
+- To save on the cost of fuel, Alberta emerges as the most practical and economical choice for settlement. With consistently low fuel prices, resilience against global market volatility, and advantageous local supply conditions, Alberta offers significant savings on fuel expenditures. For those who prioritize low living costs, particularly in fuel expenses, Alberta, followed by Manitoba and Saskatchewan, are recommended as the best provinces for settling.
+- By purchasing a car in the winter months, particularly between December and February, you can take advantage of the seasonal low in gas prices. This strategy will help you reduce the initial fuel costs associated with buying a new vehicle and maintain lower operating expenses in the early stages of ownership.
+- The best time to buy a car, with respect to gas prices, is during the winter months when fuel costs are generally lower. Pair this with settling in regions like Alberta, Manitoba, or Saskatchewan for overall fuel savings.
+
+## Final Results
+![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/main/Images/Geographical%20Average.png)
+
 There are several factors affecting the cost of gasoline prices in the last 10 years in Canada. For this project, I performed by analysis using the following criteria:
 * Different type of fuel – Diesel Fuel, Regular Unleaded Fuel and Premium Unleaded Fuel
 * Proximity/Distance from Oil Reserves
 * Supply and Demand
 
+
 ## Data
 For our analysis, I will be using data collected by the Government of Canada and provided on Statistics Canada in a .csv format. This contains historical data on a month-to-month basis for the last 10 years. It was a raw file, so we had to clean and prepare the data for analysis. <br/>
+
+
 
 ## Exploratory Data Analysis
 ### Determine the Prices for each Province
