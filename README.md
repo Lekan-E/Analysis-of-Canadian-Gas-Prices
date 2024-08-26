@@ -1,7 +1,7 @@
 # Analysis-of-Canadian-Gas-Prices
  A research analysis on the evolution of gas prices in Canada in the last decade across all provinces by Olamilekan Razak Elegbede.
 
-![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/main/Images/Geographical%20Average.png)
+![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/31b48ae7df6edf021e553f053271ffb32bc64f0f/Images/Summary%20Dashboard.png)
 
 ## Introduction
 The years 2016 and 2022 were pivotal in the cost of gas across self-service filling stations in all provinces. In 2016, gas prices were at their lowest due to low global demand, while 2022 saw the highest prices as the economy recovered from the global pandemic. As a new graduate looking to purchase a car and open to relocation, two critical questions arise: "Which province should I settle in to save on fuel costs?" and "What time of the year is best to buy a car with respect to gas prices?"
@@ -9,7 +9,11 @@ The years 2016 and 2022 were pivotal in the cost of gas across self-service fill
 The aim of this project is to analyze the cost of gas across Canadian provinces over the past 10 years, using key metrics to make informed, data-driven decisions. I will focus mainly on using Data Visualization techniques.
 
 ## Methodology
-
+### Flowchart
+- Data Source & Collection: Statistics Canada
+- Data Cleaning (Python and Tableau Prep): Drop not needed columns, Join individual tables
+- Data Exploration & Extraction: Extract the fuel type from plain text, Assign province codes/abbreviation
+- Results/Visualizations: Using Tableau, Choropleth Maps, Box Plots, Line and Bar Charts
 
 ## North Start Metrics
 - Regional Price Variations: Differences in fuel prices across various Canadian provinces.
@@ -41,7 +45,7 @@ The aim of this project is to analyze the cost of gas across Canadian provinces 
 - The best time to buy a car, with respect to gas prices, is during the winter months when fuel costs are generally lower. Pair this with settling in regions like Alberta, Manitoba, or Saskatchewan for overall fuel savings.
 
 ## Final Results
-![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/main/Images/Geographical%20Average.png)
+![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/31b48ae7df6edf021e553f053271ffb32bc64f0f/Images/Dashboard%202.png)
 
 There are several factors affecting the cost of gasoline prices in the last 10 years in Canada. For this project, I performed by analysis using the following criteria:
 * Different type of fuel – Diesel Fuel, Regular Unleaded Fuel and Premium Unleaded Fuel
