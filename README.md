@@ -65,7 +65,7 @@ The entire interactive dashboard can be viewed [HERE](https://public.tableau.com
 ![a](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/fcc857e8d1fc34a5dc6de6c8113f22370c09ebda/Images/monthly%20breakdown.png)
 
 
-## Year-over-Year Changes
+### Year-over-Year Changes
 Using the box plot, we see how gas prices have evolved over the years, with a clear upward trend in recent years, particularly for premium fuel.
 
 **For Diesel**, the plot indicates consistent pricing from the late 1990s through to 2015, with several significant points around these years, including 1997, 2001, and 2004. In the later years, the data reveals a noticeable rise in prices, particularly between 2020 and 2024. The whiskers suggest that diesel prices experienced some variability, especially in 2014 and 2023, marking years with significant price shifts.
