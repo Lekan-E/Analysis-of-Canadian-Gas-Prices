@@ -26,56 +26,57 @@ The database structure as seen below consists of 4 unique tables with a total ro
 - VECTORINFO: This table stores a unique vector identifier for the different gas type across different geography. We use the 'vectorCode' from this table to get our new data.
 - PROVINCE: Table stores information on the Canadian provinces along with a unique identifier.
 
-![A]()
+![A](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/30cf2276736195e0e7685340e74a37df1a9113b0/Images/gas%20db%20schema.png)
 
 The full data cleaning process can be found [HERE]
+
 The process of extracting new data from the API and inserting into the MySQL DB is shown in the Jupyter notebook [HERE]
 
-
-## Summary
-### Overall Findings
- A research analysis of the cost of gas prices in Canada in the last 10 years across all provinces by Olamilekan Razak Elegbede.
-
-![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/31b48ae7df6edf021e553f053271ffb32bc64f0f/Images/Summary%20Dashboard.png)
-
-## Introduction
-The years 2016 and 2022 were pivotal in the cost of gas across self-service filling stations in all provinces. In 2016, gas prices were at their lowest due to low global demand, while 2022 saw the highest prices as the economy recovered from the global pandemic. As a new graduate looking to purchase a car and open to relocation, two critical questions arise: "Which province should I settle in to save on fuel costs?" and "What time of the year is best to buy a car with respect to gas prices?"
-
-The aim of this project is to analyze the cost of gas across Canadian provinces over the past 10 years, using key metrics to make informed, data-driven decisions. I will focus mainly on using Data Visualization techniques.
-
-## Data
-For our analysis, I will be using data collected by the Government of Canada and provided by Statistics Canada in a .csv format. This contains historical data on a month-to-month basis for the last 10 years. It was a raw file, so we had to clean and prepare the data for analysis. 
-
-## Methodology
-### Flowchart
-- Data Source & Collection: Statistics Canada
-- Data Cleaning (Python and Tableau Prep): Drop not needed columns, Join individual tables
-- Data Exploration & Extraction: Extract the fuel type from plain text, Assign province codes/abbreviation
-- Results/Visualizations: Using Tableau, Choropleth Maps, Box Plots, Line and Bar Charts
-
-## North Start Metrics
+## Exploratory Data Analysis
+The purpose of exploring the data is to find insights and provide recommendations on the following key areas:
 - Regional Price Variations: Differences in fuel prices across various Canadian provinces.
 - Average Cost: Monthly average retail fuel price at self-service filling stations in each Canadian province.
 - Year-over-Year Change: Percentage change in fuel prices compared to the same period in the previous year.
 - Seasonal Variation: Fluctuations in fuel prices during different seasons of the year (Fall, Winter, Spring, Summer).
 
+
 ## Summary of Insights
+### Year-over-Year Average Cost:
+Below is the year-over-year average price changes and the moving average from the Tableau dashboard for British Columbia. From the 2010s, we begin to see a constant rise in the yearly average prices. From then on we notice various flunctuations in prices during the following periods:
+- From 2014 to 2015, gas prices significantly declined across all fuel types, likely due to an oversupply of crude oil and weakening demand. From 2016 onwards, prices began to recover gradually, with diesel showing a particularly strong rebound. 
+- The sharp rise in prices observed between 2021 and 2024 can be attributed to increased demand as economies reopened post-pandemic, supply chain disruptions, and market volatility.
+
+
+The entire interactive dashboard can be viewed [HERE](https://public.tableau.com/app/profile/lekanelegbede/viz/GasPriceDashboard_17278422265350/MainDashboard)
+
+![a]()
+
+
 ### Regional Price Variation:
 - Alberta has the lowest fuel costs, making it the most economical choice for those looking to save on fuel expenses. Manitoba and Saskatchewan also offer favorable options for cost-conscious individuals.
 - Yukon, British Columbia, and Northwest Territories have the highest fuel prices, making them less ideal for those looking to minimize fuel expenses.
 
-### Average Cost Trends:
-- From 2014 to 2015, gas prices significantly declined across all fuel types, likely due to an oversupply of crude oil and weakening demand. From 2016 onwards, prices began to recover gradually, with diesel showing a particularly strong rebound. 
-- The sharp rise in prices observed between 2021 and 2024 can be attributed to increased demand as economies reopened post-pandemic, supply chain disruptions, and market volatility.
+![a](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/30cf2276736195e0e7685340e74a37df1a9113b0/Images/Geographical%20Average.png)
 
-### Year-over-Year Changes:
-- 2014-2015: Significant drop in prices for all fuel types, with regular gas experiencing the steepest decline.
-- 2015-2020: Gradual price recovery, with diesel showing a stronger recovery, surpassing unleaded gas around 2018.
-- 2020-2021: A noticeable dip, especially for diesel, indicating high volatility due to market disruptions.
-- 2021-2024: Sharp rise in prices for all fuel types, reaching new peaks by 2024.
 
 ### Seasonal Variation:
 - Gas prices are lowest in the winter months and rise significantly in the summer, peaking in June and July. This suggests higher demand for gasoline during the summer due to increased travel and driving. Reduced driving in winter likely contributes to lower prices.
+
+![a]()
+
+
+## Year-over-Year Changes
+Using the box plot, we see how gas prices have evolved over the years, with a clear upward trend in recent years, particularly for premium fuel.
+
+**For Diesel**, the plot indicates consistent pricing from the late 1990s through to 2015, with several significant points around these years, including 1997, 2001, and 2004. In the later years, the data reveals a noticeable rise in prices, particularly between 2020 and 2024. The whiskers suggest that diesel prices experienced some variability, especially in 2014 and 2023, marking years with significant price shifts.
+
+**Premium fuel** demonstrates a wider price range. Early years, particularly around 1999 and the early 2000s, show a relatively stable pricing pattern, but the data points become more spread out as prices rise around 2015, 2018, and significantly in 2024. These later years exhibit more volatility, with 2024 showing the highest prices recorded. Outliers in 2022 and 2024 further suggest that premium fuel prices were exceptionally high in these periods.
+
+For **Regular gasoline**, similar to the other fuels, the earlier years (1997-2017) show a tighter clustering of prices, with a moderate rise in the early 2000s. However, the prices rise sharply in more recent years, with distinct peaks in 2021 and 2022. By 2024, the prices are at their highest. Regular fuel appears to have experienced a more gradual increase in prices compared to premium fuel, but still shows a significant upward trend toward the end of the time period.
+
+![a]()
+
+
 
 ## Recommendations
 - To save on the cost of fuel, Alberta emerges as the most practical and economical choice for settlement. With consistently low fuel prices, resilience against global market volatility, and advantageous local supply conditions, Alberta offers significant savings on fuel expenditures. For those who prioritize low living costs, particularly in fuel expenses, Alberta, followed by Manitoba and Saskatchewan, are recommended as the best provinces for settling.
@@ -83,4 +84,5 @@ For our analysis, I will be using data collected by the Government of Canada and
 - The best time to buy a car, with respect to gas prices, is during the winter months when fuel costs are generally lower. Pair this with settling in regions like Alberta, Manitoba, or Saskatchewan for overall fuel savings.
 
 ## Final Results
+
 ![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/31b48ae7df6edf021e553f053271ffb32bc64f0f/Images/Dashboard%202.png)
