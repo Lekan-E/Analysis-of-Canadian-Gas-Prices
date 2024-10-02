@@ -1,4 +1,39 @@
-# Analysis-of-Canadian-Gas-Prices
+# Reseach Analysis on the Evolution of Gas Prices in Canada
+
+## Introduction
+How has the Cost of Gas changed throughought the years in Canada?
+
+This research project examines the changes in gas prices across Canada from 1990 to 2024, using monthly data from self-service filling stations provided by Statistics Canada. It focuses on price fluctuations across different provinces, aiming to identify trends and regional variations over the years.
+
+The analysis was conducted using SQL for data storage and extraction, Python for data processing and analysis, and Tableau for data visualization.
+
+## Project Background
+According to Statistics Canada, gas prices have fluctuated significantly across the country over the past few decades, driven by various factors such as global oil market trends, regional taxes, and supply chain disruptions. Gas prices are a critical economic indicator, influencing transportation costs, inflation, and overall consumer spending. 
+
+Additionally, seasonal patterns also influenced prices, with higher costs for regular and premium gasoline during the summer months, driven by increased travel, and lower prices for diesel in the warmer months due to decreased heating demand.
+
+The aim is to highlight key trends, identify periods of significant fluctuation, and explore regional differences in pricing. I will focus mainly on using Data Visualization techniques.
+
+## Data Gathering
+The dataset was sourced from the Statistics Canada API, using unique VectorIDs to get the data. The data was loaded into an Excel file and then cleaned and assess using Python.
+
+Here is an article on how to get the data from the API. [HERE](https://towardsdatascience.com/how-to-collect-data-from-statistics-canada-using-python-db8a81ce6475)
+
+## Data Structure & Final Data
+The database structure as seen below consists of 4 unique tables with a total row count of 44,096. Here is a summry on each table:
+- GASINFO: This table store information on the different gas types, assigning a unique id to each.
+- GASPRICES: Table storing the prices of different gas types and various date times. This table is updated monthly using Python.
+- VECTORINFO: This table stores a unique vector identifier for the different gas type across different geography. We use the 'vectorCode' from this table to get our new data.
+- PROVINCE: Table stores information on the Canadian provinces along with a unique identifier.
+
+![A]()
+
+The full data cleaning process can be found [HERE]
+The process of extracting new data from the API and inserting into the MySQL DB is shown in the Jupyter notebook [HERE]
+
+
+## Summary
+### Overall Findings
  A research analysis of the cost of gas prices in Canada in the last 10 years across all provinces by Olamilekan Razak Elegbede.
 
 ![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/31b48ae7df6edf021e553f053271ffb32bc64f0f/Images/Summary%20Dashboard.png)
