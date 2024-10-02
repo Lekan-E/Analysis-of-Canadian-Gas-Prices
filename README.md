@@ -28,9 +28,9 @@ The database structure as seen below consists of 4 unique tables with a total ro
 
 ![A](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/30cf2276736195e0e7685340e74a37df1a9113b0/Images/gas%20db%20schema.png)
 
-The full data cleaning process can be found [HERE]()
+The full data cleaning process can be found [HERE](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/cf50611519658270c5df3a5ff0c95eb8103d3be3/Gas%20Cleaning.ipynb)
 
-The process of extracting new data from the API and inserting into the MySQL DB is shown in the Jupyter notebook [HERE]()
+The process of extracting new data from the API and inserting into the MySQL DB is shown in the Jupyter notebook [HERE](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/cf50611519658270c5df3a5ff0c95eb8103d3be3/Get%20Data.ipynb)
 
 ## Exploratory Data Analysis
 The purpose of exploring the data is to find insights and provide recommendations on the following key areas:
