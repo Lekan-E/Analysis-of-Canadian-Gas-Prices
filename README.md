@@ -34,10 +34,10 @@ The process of extracting new data from the API and inserting into the MySQL DB 
 
 ## Exploratory Data Analysis
 The purpose of exploring the data is to find insights and provide recommendations on the following key areas:
-- Regional Price Variations: Differences in fuel prices across various Canadian provinces.
-- Average Cost: Monthly average retail fuel price at self-service filling stations in each Canadian province.
-- Year-over-Year Change: Percentage change in fuel prices compared to the same period in the previous year.
-- Seasonal Variation: Fluctuations in fuel prices during different seasons of the year (Fall, Winter, Spring, Summer).
+- **Regional Price Variations**: Differences in fuel prices across various Canadian provinces.
+- **Average Cost**: Monthly average retail fuel price at self-service filling stations in each Canadian province.
+- **Year-over-Year Change**: Percentage change in fuel prices compared to the same period in the previous year.
+- **Seasonal Variation**: Fluctuations in fuel prices during different seasons of the year (Fall, Winter, Spring, Summer).
 
 
 ## Summary of Insights
@@ -49,7 +49,7 @@ Below is the year-over-year average price changes and the moving average from th
 
 The entire interactive dashboard can be viewed [HERE](https://public.tableau.com/app/profile/lekanelegbede/viz/GasPriceDashboard_17278422265350/MainDashboard)
 
-![a]()
+![a](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/fcc857e8d1fc34a5dc6de6c8113f22370c09ebda/Images/kpi%20dashboard.png)
 
 
 ### Regional Price Variation:
@@ -62,7 +62,7 @@ The entire interactive dashboard can be viewed [HERE](https://public.tableau.com
 ### Seasonal Variation:
 - Gas prices are lowest in the winter months and rise significantly in the summer, peaking in June and July. This suggests higher demand for gasoline during the summer due to increased travel and driving. Reduced driving in winter likely contributes to lower prices.
 
-![a]()
+![a](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/fcc857e8d1fc34a5dc6de6c8113f22370c09ebda/Images/monthly%20breakdown.png)
 
 
 ## Year-over-Year Changes
@@ -84,5 +84,7 @@ For **Regular gasoline**, similar to the other fuels, the earlier years (1997-20
 - The best time to buy a car, with respect to gas prices, is during the winter months when fuel costs are generally lower. Pair this with settling in regions like Alberta, Manitoba, or Saskatchewan for overall fuel savings.
 
 ## Final Results
+
+![A]()
 
 ![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/31b48ae7df6edf021e553f053271ffb32bc64f0f/Images/Dashboard%202.png)
