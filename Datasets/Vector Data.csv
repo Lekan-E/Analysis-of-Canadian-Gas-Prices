@@ -1,0 +1,54 @@
+﻿ProvinceID,GeographyID,Geography,GasTypeID,VectorCode,ProvinceCode
+1,1,"St. John's, Newfoundland and Labrador",1,v735082,NL
+1,1,"St. John's, Newfoundland and Labrador",2,v735100,NL
+1,1,"St. John's, Newfoundland and Labrador",3,v65584802,NL
+2,2,"Charlottetown and Summerside, Prince Edward Island",1,v735092,PE
+2,2,"Charlottetown and Summerside, Prince Edward Island",2,v735110,PE
+2,2,"Charlottetown and Summerside, Prince Edward Island",3,v735144,PE
+3,3,"Halifax, Nova Scotia",1,v735093,NS
+3,3,"Halifax, Nova Scotia",2,v735111,NS
+3,3,"Halifax, Nova Scotia",3,v65584803,NS
+4,4,"Saint John, New Brunswick",1,v735094,NB
+4,4,"Saint John, New Brunswick",2,v735112,NB
+4,4,"Saint John, New Brunswick",3,v65584804,NB
+5,5,"Québec, Quebec",1,v735095,QC
+5,5,"Québec, Quebec",2,v735113,QC
+5,5,"Québec, Quebec",3,v735145,QC
+5,6,"Montréal, Quebec",1,v735096,QC
+5,6,"Montréal, Quebec",2,v735114,QC
+5,6,"Montréal, Quebec",3,v735146,QC
+6,7,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",1,v735097,ON
+6,7,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",2,v735115,ON
+6,7,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",3,v735147,ON
+6,8,"Toronto, Ontario",1,v735098,ON
+6,8,"Toronto, Ontario",2,v735116,ON
+6,8,"Toronto, Ontario",3,v735148,ON
+6,9,"Thunder Bay, Ontario",1,v735099,ON
+6,9,"Thunder Bay, Ontario",2,v735117,ON
+7,10,"Winnipeg, Manitoba",1,v735083,MB
+7,10,"Winnipeg, Manitoba",2,v735101,MB
+7,10,"Winnipeg, Manitoba",3,v735135,MB
+8,11,"Regina, Saskatchewan",1,v735084,SK
+8,11,"Regina, Saskatchewan",2,v735102,SK
+8,11,"Regina, Saskatchewan",3,v735136,SK
+8,12,"Saskatoon, Saskatchewan",1,v735085,SK
+8,12,"Saskatoon, Saskatchewan",2,v735103,SK
+8,12,"Saskatoon, Saskatchewan",3,v735137,SK
+9,13,"Edmonton, Alberta",1,v735086,AB
+9,13,"Edmonton, Alberta",2,v735104,AB
+9,13,"Edmonton, Alberta",3,v735138,AB
+9,14,"Calgary, Alberta",1,v735087,AB
+9,14,"Calgary, Alberta",2,v735105,AB
+9,14,"Calgary, Alberta",3,v735139,AB
+10,15,"Vancouver, British Columbia",1,v735088,BC
+10,15,"Vancouver, British Columbia",2,v735106,BC
+10,15,"Vancouver, British Columbia",3,v735140,BC
+10,16,"Victoria, British Columbia",1,v735089,BC
+10,16,"Victoria, British Columbia",2,v735107,BC
+10,16,"Victoria, British Columbia",3,v735141,BC
+11,17,"Whitehorse, Yukon",1,v735090,YT
+11,17,"Whitehorse, Yukon",2,v735108,YT
+11,17,"Whitehorse, Yukon",3,v735142,YT
+12,18,"Yellowknife, Northwest Territories",1,v735091,NT
+12,18,"Yellowknife, Northwest Territories",2,v735109,NT
+12,18,"Yellowknife, Northwest Territories",3,v735143,NT

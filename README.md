@@ -28,9 +28,9 @@ The database structure as seen below consists of 4 unique tables with a total ro
 
 ![A](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/30cf2276736195e0e7685340e74a37df1a9113b0/Images/gas%20db%20schema.png)
 
-The full data cleaning process can be found [HERE]
+The full data cleaning process can be found [HERE]()
 
-The process of extracting new data from the API and inserting into the MySQL DB is shown in the Jupyter notebook [HERE]
+The process of extracting new data from the API and inserting into the MySQL DB is shown in the Jupyter notebook [HERE]()
 
 ## Exploratory Data Analysis
 The purpose of exploring the data is to find insights and provide recommendations on the following key areas:
@@ -74,8 +74,7 @@ Using the box plot, we see how gas prices have evolved over the years, with a cl
 
 For **Regular gasoline**, similar to the other fuels, the earlier years (1997-2017) show a tighter clustering of prices, with a moderate rise in the early 2000s. However, the prices rise sharply in more recent years, with distinct peaks in 2021 and 2022. By 2024, the prices are at their highest. Regular fuel appears to have experienced a more gradual increase in prices compared to premium fuel, but still shows a significant upward trend toward the end of the time period.
 
-![a]()
-
+![a](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/632a97acf5c41a229194367d0dfd92d20e4bfc7a/Images/box%20plot%20(2).png)
 
 
 ## Recommendations
@@ -83,8 +82,12 @@ For **Regular gasoline**, similar to the other fuels, the earlier years (1997-20
 - By purchasing a car in the winter months, particularly between December and February, you can take advantage of the seasonal low in gas prices. This strategy will help you reduce the initial fuel costs associated with buying a new vehicle and maintain lower operating expenses in the early stages of ownership.
 - The best time to buy a car, with respect to gas prices, is during the winter months when fuel costs are generally lower. Pair this with settling in regions like Alberta, Manitoba, or Saskatchewan for overall fuel savings.
 
-## Final Results
+## Data Visualization
+The data visualization was done using Tableau.
+Check out the link to the interactive dashboard: [Tableau Dashboard](https://public.tableau.com/app/profile/lekanelegbede/viz/GasPriceDashboard_17278422265350/MainDashboard)
 
-![A]()
+![A](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/632a97acf5c41a229194367d0dfd92d20e4bfc7a/Images/Gas%20Dashboard.png)
+
+A brief overview summary dashboard on findings here:
 
 ![Alt Text](https://github.com/Lekan-E/Analysis-of-Canadian-Gas-Prices/blob/31b48ae7df6edf021e553f053271ffb32bc64f0f/Images/Dashboard%202.png)
